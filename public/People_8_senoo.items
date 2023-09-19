@@ -1,0 +1,3 @@
+Group senoo "妹尾 柊哉" <man_2> (Resident) ["Equipment"]
+
+Number position_senoo "妹尾 柊哉 Position" (senoo) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate8"} 

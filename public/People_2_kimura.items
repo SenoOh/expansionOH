@@ -1,0 +1,3 @@
+Group kimura "木村 聡志" <man_2> (Resident) ["Equipment"]
+
+Number position_kimura "木村 聡志 Position" (kimura) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate2"} 

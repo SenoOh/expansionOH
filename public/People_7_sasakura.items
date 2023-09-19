@@ -1,0 +1,3 @@
+Group sasakura "笹倉 脩生" <man_2> (Resident) ["Equipment"]
+
+Number position_sasakura "笹倉 脩生 Position" (sasakura) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate7"} 

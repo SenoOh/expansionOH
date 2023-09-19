@@ -1,0 +1,24 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Generate People</h1>
+<%= link_to 'Generate People', new_peopleitem_path(@peopleitem) %>
+
+<h1>Generate All People</h1>
+<%= link_to 'Generate All People', people_generate_peopleitems_path(@peopleitem) %>
+
+<h1>Delete All People</h1>
+<%= link_to 'Delete All People', people_delete_peopleitems_path(@peopleitem) %>
+
+<h1>Peopleitems</h1>
+
+<div id="peopleitems">
+  <% @peopleitems.each do |peopleitem| %>
+    <div class="p-3 my-3 border rounded">
+      <div class="flex space-x-4">
+        <div>
+          <p><%= render peopleitem %></p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

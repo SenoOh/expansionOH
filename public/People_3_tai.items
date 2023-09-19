@@ -1,0 +1,3 @@
+Group tai "田井 佑樹" <man_2> (Resident) ["Equipment"]
+
+Number position_tai "田井 佑樹 Position" (tai) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate3"} 

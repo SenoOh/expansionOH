@@ -1,0 +1,3 @@
+Group ueno "上野 智弘" <man_2> (Resident) ["Equipment"]
+
+Number position_ueno "上野 智弘 Position" (ueno) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate5"} 

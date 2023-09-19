@@ -1,0 +1,3 @@
+Group mukohara "向原 大貴" <man_2> (Resident) ["Equipment"]
+
+Number position_mukohara "向原 大貴 Position" (mukohara) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate4"} 

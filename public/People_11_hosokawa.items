@@ -1,0 +1,3 @@
+Group hosokawa "細川 健真" <man_2> (Resident) ["Equipment"]
+
+Number position_hosokawa "細川 健真 Position" (hosokawa) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate11"} 

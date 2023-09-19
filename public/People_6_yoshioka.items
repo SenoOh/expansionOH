@@ -1,0 +1,3 @@
+Group yoshioka "吉岡 健太" <man_2> (Resident) ["Equipment"]
+
+Number position_yoshioka "吉岡 健太 Position" (yoshioka) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate6"} 

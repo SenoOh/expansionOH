@@ -1,0 +1,37 @@
+<%= form_with(model: peopleitem) do |form| %>
+  <% if peopleitem.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(peopleitem.errors.count, "error") %> prohibited this peopleitem from being saved:</h2>
+
+      <ul>
+        <% peopleitem.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :people_id, style: "display: block" %>
+    <%= form.text_field :people_id %>
+  </div>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :label, style: "display: block" %>
+    <%= form.text_field :label %>
+  </div>
+
+  <div>
+    <%= form.label :plate, style: "display: block" %>
+    <%= form.number_field :plate %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

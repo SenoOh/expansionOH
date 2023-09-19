@@ -1,0 +1,2 @@
+class Peopleitem < ApplicationRecord
+end

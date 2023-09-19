@@ -1,0 +1,3 @@
+Group fujimoto "藤本 剛瑠" <man_2> (Resident) ["Equipment"]
+
+Number position_fujimoto "藤本 剛瑠 Position" (fujimoto) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate10"} 

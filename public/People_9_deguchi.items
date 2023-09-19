@@ -1,0 +1,3 @@
+Group deguchi "出口 智己" <man_2> (Resident) ["Equipment"]
+
+Number position_deguchi "出口 智己 Position" (deguchi) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate9"} 

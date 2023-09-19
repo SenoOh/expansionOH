@@ -1,0 +1,3 @@
+Group miyake "三宅 貴義" <man_2> (Resident) ["Equipment"]
+
+Number position_miyake "三宅 貴義 Position" (miyake) ["Point","None"] {channel= "mqtt:topic:MQTTBroker:Doorplate_106:plate1"} 
